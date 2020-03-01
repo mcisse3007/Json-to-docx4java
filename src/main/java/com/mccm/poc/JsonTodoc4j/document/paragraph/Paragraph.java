@@ -6,5 +6,13 @@ import java.util.List;
 
 public abstract class Paragraph {
 
-    List<Content> contents;
+   final List<Content> contents;
+
+    protected Paragraph(List<Content> contents) {
+        this.contents = contents;
+    }
+
+    public List<Content> getContents() {
+        return contents;
+    }
 }

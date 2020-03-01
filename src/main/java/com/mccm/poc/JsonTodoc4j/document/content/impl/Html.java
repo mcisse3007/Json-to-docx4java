@@ -5,8 +5,9 @@ import com.mccm.poc.JsonTodoc4j.document.content.ContentType;
 
 public class Html extends Content {
 
-    protected Html() {
+    public Html(String html) {
         super(ContentType.HTML);
+        this.html = html;
     }
 
     private String html;

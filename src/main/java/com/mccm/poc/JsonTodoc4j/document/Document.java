@@ -3,37 +3,37 @@ package com.mccm.poc.JsonTodoc4j.document;
 import com.mccm.poc.JsonTodoc4j.document.page.Page;
 
 import java.util.List;
-
-
-
-
-
 /**
  * document extrait en json de la base
  *
  * {
- * ---------------------------------------------------PAGE-------------------------------------
- *     "pages" : [{
- *     -----------------------------------------------PARAGRAPH-----------------------------------
- *         "paragraphs":[{
- *         -------------------------------------------CONTENT--------------------------------------
- *             "type" : "TABLE",
- *             "content" : [{
- *             **********************************SUMMARY*********************************
- *                 "titre" : "sommaire",
- *                 "numeroDePage": 1,
- *             }]
- *         }],
- *         "type" : "SUMMARY"
- *     },{}]
+ *     "pages" : [{"type" : "PAGE_DE_GARDE",  },{ "type" : "SUMMARY" },{
+ *          "paragraphs":[{
+ *               "type" : "HTML",
+ *               "html":"<html><body></body></html>"
+ *           }],
+ *         "type" : "DEFAULT_PAGE"
+ *     }
+ *    ]
  * }
  * */
 
-
 public class Document {
 
-    private String nomDocument;
+    private final String nomDocument;
 
-    private List<Page> pages;
+    private final List<Page> pages;
 
+    public Document(String nomDocument, List<Page> pages) {
+        this.nomDocument = nomDocument;
+        this.pages = pages;
+    }
+
+    public List<Page> getPages() {
+        return pages;
+    }
+
+    public String getNomDocument() {
+        return nomDocument;
+    }
 }

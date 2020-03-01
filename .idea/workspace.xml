@@ -2,22 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db4182f-0a04-4396-964f-12dc4428a5df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/ContentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/ContentDecoratorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/HtmlDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/ImageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/TableDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/TextDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/document/DocumentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/document/impl/DefaultDocumentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/page/PageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/page/impl/DefaultPageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/page/impl/PageDeGardeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/impl/DefaultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/paragraph/impl/DefaultParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/factory/PageDecoratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/docx4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/ContentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/content/ContentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/ContentDecoratorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/factory/ContentDecoratorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/JsonToDocx4JDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/JsonToDocx4JDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/ContentDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/DocumentDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/HtmlDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/content/impl/HtmlDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/ImageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/content/impl/ImageDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/TableDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/content/impl/TableDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/impl/TextDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators/content/impl/TextDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/ContentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/ContentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Xhtml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Html.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/content/impl/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/PageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/PageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/impl/PageDeGarde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/impl/PageDeGarde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/impl/Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/page/impl/Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/paragraph/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/paragraph/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mccm/poc/JsonTodoc4j/doc4J/CreationDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mccm/poc/JsonTodoc4j/doc4J/CreationDocument.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,7 +59,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/mccm/poc" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/decorators" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,12 +69,56 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mccm.poc.JsonTodoc4j.decorators" />
+      <recent name="com.mccm.poc.JsonTodoc4j.decorators.content" />
       <recent name="com.mccm.poc.JsonTodoc4j.decorators.impl" />
       <recent name="com.mccm.poc.JsonTodocx4j.decorators" />
       <recent name="com.mccm.test.page" />
-      <recent name="com.mccm.test" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreationDocument.DocumentCreationTest">
+    <configuration name="CreationDocument.DocumentCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Docx4Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mccm.poc.JsonTodoc4j.doc4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mccm.poc.JsonTodoc4j.doc4J" />
+      <option name="MAIN_CLASS_NAME" value="com.mccm.poc.JsonTodoc4j.doc4J.CreationDocument" />
+      <option name="METHOD_NAME" value="DocumentCreationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreationDocument.createDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Docx4Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mccm.poc.JsonTodoc4j.doc4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mccm.poc.JsonTodoc4j.doc4J" />
+      <option name="MAIN_CLASS_NAME" value="com.mccm.poc.JsonTodoc4j.doc4J.CreationDocument" />
+      <option name="METHOD_NAME" value="createDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreationDocument.DocumentCreationTest" />
+        <item itemvalue="JUnit.CreationDocument.createDocument" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582706618895</updated>
-      <workItem from="1582706622959" duration="26242000" />
+      <workItem from="1582706622959" duration="49817000" />
     </task>
     <servers />
   </component>
@@ -81,14 +138,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1582990326549">
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1583075354956">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582990326549" />
-    <state x="503" y="470" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582974498325">
+    <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1583075354956" />
+    <state x="503" y="470" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583011425574">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="503" y="470" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582974498325" />
+    <state x="503" y="470" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583011425574" />
     <state x="710" y="413" width="566" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582974664233">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -97,22 +154,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="773" y="425" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1853.1053@67.27.1853.1053" timestamp="1582974199172" />
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582990899305">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583013369437">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582990899305" />
-    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1582984298289">
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583013369437" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1582998043335">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582984298289" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582998043335" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583082907150">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1583082907150" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583082907149">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1583082907149" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583082907149">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1583082907149" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583082907149">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1583082907149" />
     <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1582881210287">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582881210287" />
-    <state x="765" y="332" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1582972694264">
+    <state x="765" y="332" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1583011673050">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="765" y="332" width="446" height="440" key="chooseDestDirectoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582972694264" />
+    <state x="765" y="332" width="446" height="440" key="chooseDestDirectoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583011673050" />
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582984298289">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -125,13 +198,32 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582708511423" />
+    <state x="726" y="308" width="524" height="488" key="extract.method.dialog" timestamp="1583093627023">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="308" width="524" height="488" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583093627023" />
     <state x="559" y="68" width="869" height="969" key="find.popup" timestamp="1582974152324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="559" y="68" width="869" height="969" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1582974152324" />
-    <state x="738" y="171" width="500" height="762" key="refactoring.ChangeSignatureDialog" timestamp="1582990780923">
+    <state x="738" y="171" width="500" height="762" key="refactoring.ChangeSignatureDialog" timestamp="1583075182963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="738" y="171" width="500" height="762" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582990780923" />
+    <state x="738" y="171" width="500" height="762" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583075182963" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1583081386072">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1583081386072" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mccm/poc/JsonTodoc4j/document/paragraph/Paragraph.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

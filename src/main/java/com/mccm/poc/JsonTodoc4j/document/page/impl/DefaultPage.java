@@ -6,8 +6,8 @@ import com.mccm.poc.JsonTodoc4j.document.paragraph.Paragraph;
 
 import java.util.List;
 
-public class PageDeGarde extends Page {
-    public PageDeGarde() {
-        super(PageType.PAGE_DE_GARDE, null);
+public class DefaultPage extends Page {
+    public DefaultPage( List<Paragraph> paragraphs) {
+        super(PageType.DEFAULT_PAGE, paragraphs);
     }
 }

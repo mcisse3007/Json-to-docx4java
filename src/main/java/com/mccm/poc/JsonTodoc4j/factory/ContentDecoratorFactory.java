@@ -1,9 +1,10 @@
-package com.mccm.poc.JsonTodoc4j.decorators;
+package com.mccm.poc.JsonTodoc4j.factory;
 
-import com.mccm.poc.JsonTodoc4j.decorators.impl.HtmlDecorator;
-import com.mccm.poc.JsonTodoc4j.decorators.impl.ImageDecorator;
-import com.mccm.poc.JsonTodoc4j.decorators.impl.TableDecorator;
-import com.mccm.poc.JsonTodoc4j.decorators.impl.TextDecorator;
+import com.mccm.poc.JsonTodoc4j.decorators.content.ContentDecorator;
+import com.mccm.poc.JsonTodoc4j.decorators.content.impl.HtmlDecorator;
+import com.mccm.poc.JsonTodoc4j.decorators.content.impl.ImageDecorator;
+import com.mccm.poc.JsonTodoc4j.decorators.content.impl.TableDecorator;
+import com.mccm.poc.JsonTodoc4j.decorators.content.impl.TextDecorator;
 import com.mccm.poc.JsonTodoc4j.document.content.Content;
 import com.mccm.poc.JsonTodoc4j.document.content.impl.Html;
 import com.mccm.poc.JsonTodoc4j.document.content.impl.Image;
@@ -13,7 +14,7 @@ import com.mccm.poc.JsonTodoc4j.document.content.impl.Text;
 public class ContentDecoratorFactory {
 
     public static ContentDecorator getContentDecorator(Content content){
-
+        if(content == null)  throw new IllegalStateException("Null content");
         switch (content.getType()) {
             case TEXT:
                 Text text = (Text) content;
@@ -26,9 +27,9 @@ public class ContentDecoratorFactory {
                 return new HtmlDecorator(html);
             case TABLE:
                 Table table = (Table)content;
-                return new TableDecorator((table));
+                return new TableDecorator(table);
             default:
-                throw new IllegalStateException("Unexpected value: " + content.getType());
+                throw new IllegalStateException("Unexpected value : " + content.getType());
         }
     }
 }
