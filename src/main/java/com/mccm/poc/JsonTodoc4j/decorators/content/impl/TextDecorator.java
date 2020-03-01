@@ -15,7 +15,7 @@ public class TextDecorator extends ContentDecorator {
     public void decorate(WordprocessingMLPackage wordprocessingMLPackage) {
         MainDocumentPart mainDocumentPart = wordprocessingMLPackage.getMainDocumentPart();
         Text text = (Text) this.getContent();
-        mainDocumentPart.addStyledParagraphOfText("style1", text.getContent());
+        mainDocumentPart.addParagraphOfText(text.getContent());
     }
 
 }
